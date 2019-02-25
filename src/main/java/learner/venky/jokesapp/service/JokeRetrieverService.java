@@ -9,8 +9,8 @@ public class JokeRetrieverService implements JokeRetriever{
 
     private ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokeRetrieverService() {
-        chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public JokeRetrieverService(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override
